@@ -10,7 +10,7 @@ server_name = "Example Server 1"
 control_server = "https://example.com"
 shared_secret = "changemeplease"
 ```
-The control_server should be the URL of your [main server](https://...)
+The control_server should be the URL of your [main server](https://github.com/chanderlud/dstat_frontend)
 <br>
 The server_name is used to reference the dstat server on the main server
 <br>
