@@ -1,0 +1,17 @@
+[default]
+address = "0.0.0.0"
+port = 18364
+
+[default.limits]
+form = "1GiB"
+bytes = "1GiB"
+data-form = "1GiB"
+file = "1GiB"
+json = "1GiB"
+msgpack = "1GiB"
+string = "1GiB"
+
+[default.dstat]
+server_name = "Example Server 1"
+control_server = "https://example.com"
+shared_secret = "changemeplease"
